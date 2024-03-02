@@ -1,0 +1,714 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section nav .navbar {
+    padding: 0px;
+}
+
+
+.banner-section img {
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+}
+
+.banner-section {
+    position: relative;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    /* z-index: 9; */
+}
+
+.navbar {
+    z-index: 999;
+    top: 1%;
+    width: 100%;
+    padding-right: 1%;
+    position: fixed;
+}
+
+.nav-link {
+    font-size: 1.3vw;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    color: red;
+    text-align: right;
+    padding-right: 20px;
+    background-color: white;
+
+}
+
+.nav-link:hover {
+    color: beige;
+}
+
+.caption-head {
+    top: 35%;
+    position: absolute;
+}
+
+.caption {
+    padding-left: 70px;
+}
+
+.heading {
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(40, 37, 37);
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(216, 10, 10);
+    font-size: 3.5vw;
+}
+
+/* -------------- about ----------------- */
+.about-section {
+    background-color: rgb(48, 47, 47);
+    height: 100vh;
+}
+
+.about-section .row {
+    margin: 0;
+}
+
+.about {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.imgs {
+    width: 45%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    left: -60px;
+}
+
+.chat {
+    width: 100%;
+    height: 60vh;
+    padding-right: 30px;
+    margin-left: 50px;
+    z-index: 999;
+
+}
+
+.about-caption {
+    top: 50px;
+    position: relative;
+    margin-left: -150px;
+    border-left: 5px solid #fff;
+}
+
+.about-paragraph {
+    position: absolute;
+    margin-left: 50px;
+    top: 1%;
+    padding-top: 55px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-paragraph h3 {
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 85px;
+    text-align: center;
+}
+
+/*---------- Skills Section------------ */
+.skill-section {
+    background-color: rgb(237, 227, 213);
+    height: 100vh;
+}
+
+.skill {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.skillimg {
+    width: 120px;
+    height: 45%;
+}
+
+
+.skill-section .row {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 55px;
+}
+
+.firstskillrow {
+    margin-bottom: 50px;
+}
+
+.title {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.checked {
+    color: rgb(255, 68, 0);
+}
+
+.unchecked {
+    color: rgb(0, 0, 0);
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.skillfirst {
+    max-width: 20%;
+}
+
+.firstskillrow .oop {
+    display: none;
+}
+
+/* ---------Project section------------ */
+
+.project-section {
+    height: 165vh;
+    background-color: rgb(160, 158, 158);
+}
+
+.project-section .row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.project-section h2 {
+    color: rgb(19, 17, 17);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.projimg {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.project-section h3 {
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.proj {
+    height: 460px;
+    background-color: black;
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0);
+}
+
+.Projdes {
+    color: bisque;
+    text-align: justify;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.bottom {
+    bottom: 0;
+    color: beige;
+    /* border-top: 2px solid white; */
+    position: absolute;
+    width: 92%;
+}
+
+/* ------------------Education section--------------- */
+.Education-section h2 {
+    color: rgb(224, 208, 208);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Education-section {
+    background-color: rgb(49 36 36);
+    width: 100%;
+    height: 100vh;
+}
+
+.Education-section .row {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: left
+}
+
+.eduheading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(202, 170, 132);
+}
+
+.eduhead {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(137, 137, 165);
+}
+
+.eduscore {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+}
+
+.edushades {
+    padding: 15px 30px;
+    box-shadow: 0 0 5px 3px wheat;
+    border-radius: 10px;
+}
+
+.edspn {
+    float: right;
+}
+
+/* --------------------Contact------------- */
+.Contact-section {
+    background-color: rgb(225, 217, 217);
+    height: 100vh;
+}
+
+.Contact-section .row {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Contact-section h2 {
+    color: rgb(14, 13, 13);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact {
+    padding-left: 100px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.cont {
+    padding-left: 15px;
+    font-size: 25px;
+    color: rgb(39, 57, 20);
+    font-weight: bold;
+}
+
+.Name {
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+
+.Resume {
+    height: 100%;
+}
+
+.resumeimg {
+    width: 90%;
+    height: 75vh;
+}
+
+.contimg {
+    width: 50%;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.Footer-section {
+    background-color: rgb(91, 90, 90);
+    bottom: 0;
+}
+
+.border {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+/* -------------media query--------------- */
+@media screen and (max-width:480px) {
+
+    .navbar {
+        top: 0;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 2vw;
+        color: red;
+        background-color: white;
+        /* z-index: 999; */
+        padding-right: 20px !important;
+    }
+
+    .navbar-toggler-icon {
+        background-color: red;
+        border: 1px solid black;
+        color: #fff;
+    }
+
+    .banner-section img {
+        height: 50vh;
+        /* width: 300%; */
+    }
+
+    .heading {
+        font-size: 3vw;
+    }
+
+    .name {
+        font-size: 4vw;
+    }
+
+    .caption {
+        left: 1%;
+        padding-left: 0;
+    }
+
+    .caption-head {
+        top: 42%;
+        margin-left: 10px;
+    }
+
+    .about {
+        padding-top: 30px;
+        font-size: 45px;
+        margin-bottom: -20px;
+    }
+
+    .about-img {
+        left: 0;
+    }
+
+    .imgs {
+        width: 70%;
+    }
+
+    .about-section {
+        height: 150vh;
+    }
+
+    .chat {
+        margin-left: 160px;
+        height: 66vh;
+    }
+
+    .about-paragraph {
+        margin-right: -70px;
+        margin-left: 202px;
+        padding-top: 35px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-paragraph h3 {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 12px;
+    }
+
+    .about-paragraph p {
+        font-size: 14px;
+    }
+
+    .skill-section {
+        height: 170vh;
+    }
+
+    .skill {
+        padding-top: 30px;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .firstskillrow {
+        margin-bottom: 0;
+    }
+
+    .skillfirst {
+        max-width: 50%;
+    }
+
+    .firstskillrow .oop {
+        display: block;
+    }
+
+    .skillsecondrow .oop1 {
+        display: none;
+    }
+
+    .project-section {
+        height: 325vh;
+    }
+
+    .project-section .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .project-section .row2 {
+        margin-top: -10px;
+    }
+
+    .project-section .row .col-lg-4 {
+        margin-bottom: 40px;
+    }
+
+    .project-section h2 {
+        padding-top: 30px;
+        font-size: 45px;
+        margin-bottom: -26px;
+    }
+
+    .Education-section {
+        height: 110vh;
+    }
+
+    .Education-section h2 {
+        padding-top: 20px;
+        margin-bottom: -15px;
+        font-size: 54px;
+    }
+
+    .Education-section .row {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .eduheading {
+        font-size: 18px;
+    }
+
+    .eduhead {
+        font-size: 17px;
+    }
+
+    .eduscore {
+        font-size: 15px;
+    }
+
+    .Education-section .row {
+        margin-top: 0;
+    }
+
+    .Education-section .row .col-lg-6 {
+
+        margin-top: 25px;
+    }
+
+    .Contact-section {
+        height: 155vh;
+    }
+
+    .Contact-section h2 {
+        padding-top: 30px;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .Contact-section .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .resumeimg {
+        width: 100%;
+        height: 80vh
+    }
+
+    .contactimg {
+        text-align: center;
+    }
+
+    .contimg {
+        margin-left: 0;
+        height: 165px;
+    }
+
+    .contact {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .cont {
+        font-size: 20px;
+    }
+
+    .border {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    .about-section {
+        height: 133vh;
+    }
+
+    .about-paragraph p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .about-section {
+        height: 110vh;
+    }
+
+    .about {
+        padding-top: 11px;
+        font-size: 38px;
+        margin-bottom: -35px;
+    }
+
+    .chat {
+        margin-left: 160px;
+        height: 58vh;
+    }
+
+    .about-paragraph h3 {
+        font-size: 24px;
+    }
+
+    .about-paragraph p {
+        font-size: 10.5px;
+    }
+
+    .skill-section {
+        height: 115vh;
+    }
+
+    .skill {
+        padding-top: 11px;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .skillimg {
+        width: 88%;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .rating {
+        font-size: 13px;
+    }
+
+    .project-section h2 {
+        padding-top: 11px;
+        font-size: 35px;
+        margin-bottom: -35px;
+    }
+
+    .Education-section h2 {
+        padding-top: 11px;
+        font-size: 35px;
+        margin-bottom: -5px;
+    }
+
+    .Contact-section {
+        height: 145vh;
+    }
+
+    .Contact-section h2 {
+        padding-top: 11px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .contimg {
+        margin-left: 0;
+        height: 150px;
+    }
+
+    .Name {
+        font-size: 30px;
+    }
+
+    .cont {
+        font-size: 15px;
+    }
+
+    .border {
+        font-size: 15px;
+    }
+}
